@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="kk">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Геомұра — Қазақстанның геологиялық мұрасы</title>
+<meta name="description" content="Қазақстанның геологиялық мұра нысандарының интерактивті картасы">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<header><a class="brand" href="./"><span class="brand-icon">◈</span><span>геомұра<small>ҚАЗАҚСТАННЫҢ ГЕОЛОГИЯЛЫҚ МҰРАСЫ</small></span></a><span class="edition">Жер тарихын бірге ашайық</span></header>
+<main>
+<aside class="sidebar"><div class="intro"><span class="eyebrow">ДАЛАДАН ТАУҒА ДЕЙІН</span><h1>Тарихы терең. <br>Табиғаты ерекше.</h1><p>Қазақстанның геологиялық мұрасын картадан зерттеңіз. Координаттың нақтылығы мен дереккөзі әр карточкада көрсетілген.</p></div>
+<div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Нысан немесе өңірді іздеу" aria-label="Нысандарды іздеу"></div>
+<div id="filters" class="filters" aria-label="Санаттар"></div>
+<div class="list-heading"><span>НЫСАНДАР</span><span id="count"></span></div>
+<div id="list" class="list" aria-live="polite"></div>
+<footer><span class="dot"></span> Қазақстанның геомұра атласы<span>Картаны жылжытып, нысанды таңдаңыз</span></footer>
+</aside>
+<section class="map-section" aria-label="Қазақстан картасы"><div id="map"></div><div class="map-label"><span class="dot"></span> ҚАЗАҚСТАН <span> / Геомұра картасы</span></div><button id="home" class="map-home" aria-label="Қазақстанды толық көрсету">⌖ <span>Қазақстан</span></button><div class="map-note" id="map-note">Белгішені басып, нысан туралы біліңіз</div><article id="detail" class="detail" hidden aria-label="Нысан туралы ақпарат"></article></section>
+</main>
+<div id="toast" role="status" hidden></div>
+</body></html>

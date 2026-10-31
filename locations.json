@@ -1,0 +1,414 @@
+[
+  {
+    "id": "aidarlyasha",
+    "name": "Айдарлыаша қимасы",
+    "category": "outcrop",
+    "icon": "◆",
+    "region": "Ақтөбе облысы",
+    "description": "Карбон мен Пермь жүйелерінің шекарасын көрсететін стратиграфиялық қима. Айдарлыаша халықаралық геологиялық уақыт шкаласындағы Ассель ярусының эталондық қимасы ретінде маңызды.",
+    "lat": 50.21606,
+    "lng": 57.78324,
+    "demo": false,
+    "coordinateNote": "Құжаттағы туристік каталог нүктесі. Қиманың нақты эталондық қабаты мен кіреберісі бөлек нақтыланады.",
+    "sources": [
+      {
+        "title": "International Commission on Stratigraphy",
+        "url": "https://stratigraphy.org/gssps/asselian"
+      },
+      {
+        "title": "Kazakhstan.travel",
+        "url": "https://kazakhstan.travel/kz/attractions/35"
+      }
+    ],
+    "documentReference": "10:1"
+  },
+  {
+    "id": "aktolagay",
+    "name": "Ақтолағай борлы үстірті",
+    "category": "outcrop",
+    "icon": "◆",
+    "region": "Ақтөбе облысы",
+    "description": "Ақ бор жарқабақтары мен сатылы бедері ежелгі теңіздік шөгінділерді көрсетеді. Қабаттарда теңіз жануарларының қазба қалдықтары кездеседі.",
+    "lat": 47.49425,
+    "lng": 55.11678,
+    "demo": false,
+    "coordinateNote": "Туристік каталогтағы бағдарлық нүкте; бүкіл үстірттің шекарасы емес.",
+    "sources": [
+      {
+        "title": "Kazakhstan.travel",
+        "url": "https://kazakhstan.travel/kz/attractions/24"
+      }
+    ],
+    "documentReference": "10:7"
+  },
+  {
+    "id": "kokala",
+    "name": "Көкала шатқалы",
+    "category": "canyon",
+    "icon": "◈",
+    "region": "Маңғыстау облысы",
+    "description": "Түрлі түсті саздар, әктастар және ежелгі шөгінді қабаттар ашылған шағын шатқал. Юра жыныстары мен олардың үгілу пішіндері геологиялық тарихты көрнекі түсіндіреді.",
+    "lat": 44.24581,
+    "lng": 51.88679,
+    "demo": false,
+    "coordinateNote": "Kazakhstan.travel каталогында жарияланған нүкте.",
+    "sources": [
+      {
+        "title": "Kazakhstan.travel",
+        "url": "https://kazakhstan.travel/en/attractions/305"
+      }
+    ],
+    "documentReference": "10:2"
+  },
+  {
+    "id": "ybykty",
+    "name": "Ыбықты сай шатқалы",
+    "category": "canyon",
+    "icon": "◈",
+    "region": "Маңғыстау облысы",
+    "description": "Қабырғалары ұяшық тәрізді қуыстармен өрнектелген тар шатқал. Карбонатты жыныстардың әркелкі үгілуі мен эрозиясын бақылауға қолайлы.",
+    "lat": 43.96494,
+    "lng": 51.91177,
+    "demo": false,
+    "coordinateNote": "Kazakhstan.travel каталогында жарияланған нүкте.",
+    "sources": [
+      {
+        "title": "Kazakhstan.travel",
+        "url": "https://kazakhstan.travel/kz/attractions/323"
+      }
+    ],
+    "documentReference": "10:3"
+  },
+  {
+    "id": "karasandyk",
+    "name": "Қарасандық останеці мен каньоны",
+    "category": "canyon",
+    "icon": "◈",
+    "region": "Қызылорда облысы",
+    "description": "Арал маңындағы оқшау қалдық тау мен каньон тәрізді жыралар кешені. Темірлі қабаттар, саздар және шөгінді қималар палеогендегі табиғи орта өзгерістерін зерттеуге мүмкіндік береді.",
+    "lat": 46.793333,
+    "lng": 60.794722,
+    "demo": false,
+    "coordinateNote": "Қарасандық тауының бағдарлық нүктесі; каньонға кіру нүктесі емес. Дереккөздегі градус, минут, секунд ондық форматқа түрлендірілді.",
+    "sources": [
+      {
+        "title": "GeoPark Aral",
+        "url": "https://geoparkaral.kz/geo-obeject/"
+      },
+      {
+        "title": "Silk Road Adventures — далалық сипаттама",
+        "url": "https://silkadv.com/en/content/mount-karasandyk-aral-sea"
+      }
+    ],
+    "documentReference": "10:4;20:12"
+  },
+  {
+    "id": "akzhar",
+    "name": "Ақжар таулары",
+    "category": "mountain",
+    "icon": "▲",
+    "region": "Ұлытау облысы",
+    "description": "Сары-қызыл реңкті шөгінді жыныстардан түзілген аласа төбелер. Сазды қабаттар, гипс қосындылары және эрозиялық пішіндер аумақтың геоморфологиялық құндылығын көрсетеді.",
+    "lat": 49.23468,
+    "lng": 66.23831,
+    "demo": false,
+    "coordinateNote": "Құжатта координаты болмаған; Kazakhstan.travel каталогынан толықтырылды. Массивтің бағдарлық нүктесі.",
+    "sources": [
+      {
+        "title": "Kazakhstan.travel",
+        "url": "https://kazakhstan.travel/ru/attractions/397"
+      },
+      {
+        "title": "Археология институтының мұралар картасы",
+        "url": "https://archaeology.kz/ru/heritages/444-aqzhar-tauy"
+      }
+    ],
+    "documentReference": "10:5"
+  },
+  {
+    "id": "aiyrtau",
+    "name": "Айыртау гранитті массиві",
+    "category": "mountain",
+    "icon": "▲",
+    "region": "Шығыс Қазақстан облысы",
+    "description": "Ұлан өңіріндегі гранитті тау массиві. Жартасты беткейлер мен оқшау тас пішіндері граниттің жарықшақтануы және үгілуімен байланысты.",
+    "lat": 49.75,
+    "lng": 82.0675,
+    "demo": false,
+    "coordinateNote": "Ауылдың координаты ауыстырылды: бұл тау массивінің жарияланған бағдарлық нүктесі, нақты шың немесе соқпақ басы емес.",
+    "sources": [
+      {
+        "title": "Silk Road Adventures — авторлық далалық фотосипаттама",
+        "url": "https://www.silkadv.com/ru/node/7107"
+      },
+      {
+        "title": "Visit East Qazaqstan",
+        "url": "https://visiteast.kz/kz/turistu/chto-posmotret/krasota-prirodyi/taular/ajyirtau-tauyi.html"
+      }
+    ],
+    "documentReference": "10:6"
+  },
+  {
+    "id": "kiin-kerish",
+    "name": "Кийін-Керіш",
+    "category": "outcrop",
+    "icon": "◆",
+    "region": "Шығыс Қазақстан облысы",
+    "description": "Зайсан ойысындағы түрлі түсті сазды бедер. Қызыл, ақ және сарғыш қабаттарды су мен жел тілімдеп, жыралар мен ерекше қалдық пішіндерді қалыптастырған.",
+    "lat": 48.129722,
+    "lng": 84.493889,
+    "demo": false,
+    "coordinateNote": "Құжаттағы 47.35, 83.50 нүктесі қолданылмады. Нүкте Plantarium далалық бақылауындағы Кеин-Кериш аумағын көрсетеді; жеке геологиялық қиманың шекарасы емес.",
+    "sources": [
+      {
+        "title": "Plantarium — далалық бақылау нүктесі",
+        "url": "https://www.plantarium.ru/page/landscapes/point/2871.html"
+      },
+      {
+        "title": "Visit East Qazaqstan",
+        "url": "https://visiteast.kz/populyarnyie-turobektyi/kiin-kerish/"
+      }
+    ],
+    "documentReference": "10:8"
+  },
+  {
+    "id": "bektauata",
+    "name": "Бектауата гранитті массиві",
+    "category": "mountain",
+    "icon": "▲",
+    "region": "Қарағанды облысы",
+    "description": "Дала үстінен оқшау көтерілген гранитті массив. Күмбездер, дөңгеленген қойтастар мен қуыстар граниттің ұзақ үгілуі мен жарықшақтануын көрсетеді.",
+    "lat": 47.3565,
+    "lng": 74.745,
+    "demo": false,
+    "coordinateNote": "Массивтің жалпы бағдарлық нүктесі. Құжатта ұсынылған қосымша гранитті учаскелердің жеке координаттары әлі анықталмаған.",
+    "sources": [
+      {
+        "title": "Plantarium — географиялық нүкте",
+        "url": "https://www.plantarium.ru/page/landscapes/point/1227.html"
+      },
+      {
+        "title": "Visit Karaganda",
+        "url": "https://visitkaraganda.kz/ru/services/493"
+      }
+    ],
+    "documentReference": "10:9"
+  },
+  {
+    "id": "inder",
+    "name": "Индер көлі және тұзды бедер",
+    "category": "lake",
+    "icon": "◎",
+    "region": "Атырау облысы",
+    "description": "Тұзды көл, сорлы жағалау және тұз тектоникасымен байланысты бедер кешені. Көлдік шөгінділер мен тұздану процестерін бір аумақта салыстыруға болады.",
+    "lat": 48.516667,
+    "lng": 51.866667,
+    "demo": false,
+    "coordinateNote": "Plantarium бақылауындағы солтүстік-батыс жағалау нүктесі. Тұз күмбезінің орталығы немесе барлық зерттеу учаскелерінің орны емес.",
+    "sources": [
+      {
+        "title": "Plantarium — жағалау бақылауы",
+        "url": "https://www.plantarium.ru/lang/en/page/landscapes/point/2984.html"
+      }
+    ],
+    "documentReference": "20:5"
+  },
+  {
+    "id": "burkhan-bulak",
+    "name": "Қора аңғары және Бұрхан-Бұлақ",
+    "category": "waterfall",
+    "icon": "◇",
+    "region": "Жетісу облысы",
+    "description": "Қора аңғарындағы сарқырама мен тік тау беткейлері өзен эрозиясын көрсетеді. Кешен тау аңғарының қалыптасуын және су ағынының бедерге әсерін түсіндіруге қолайлы.",
+    "lat": 45.0075,
+    "lng": 79.2075,
+    "demo": false,
+    "coordinateNote": "Сарқырама туралы авторлық далалық сипаттамадағы нүкте. Туристік каталогта өзгеше координат берілген; Қора аңғарының барлық учаскелері осы нүктемен дәл берілмейді.",
+    "sources": [
+      {
+        "title": "Silk Road Adventures — сарқыраманың далалық сипаттамасы",
+        "url": "https://www.silkadv.com/ru/node/2531"
+      }
+    ],
+    "documentReference": "20:8"
+  },
+  {
+    "id": "ush-ungir",
+    "name": "Үш үңгір гроты",
+    "category": "cave",
+    "icon": "◎",
+    "region": "Қарағанды облысы",
+    "description": "Қарқаралыдағы шағын үңгірлер мен тас қуыстар кешені. Гранит жыныстарының жарықшақтануын, үгілуін және үңгірлік бедерді салыстыруға мүмкіндік береді.",
+    "lat": 49.428893,
+    "lng": 75.479094,
+    "demo": false,
+    "coordinateNote": "Қарқаралы тауларының рекреациялық әлеуеті туралы 2022 жылғы зерттеуде көрсетілген нысан нүктесі.",
+    "sources": [
+      {
+        "title": "ҚазҰУ География хабаршысы, 2022 — далалық маршрут",
+        "url": "https://bulletin-geography.kaznu.kz/index.php/1-geo/ru/article/download/1181/771"
+      },
+      {
+        "title": "Kazakhstan.travel",
+        "url": "https://kazakhstan.travel/en/attractions/236"
+      }
+    ],
+    "documentReference": "20:10"
+  },
+  {
+    "id": "aksu",
+    "name": "Ақсу каньоны",
+    "category": "canyon",
+    "icon": "◈",
+    "region": "Түркістан облысы",
+    "description": "Терең өзен аңғары мен тік жарқабақтары бар каньон. Су эрозиясы, беткей процестері және жыныс қабаттарының ашылуы айқын көрінеді.",
+    "lat": 42.30059,
+    "lng": 70.21582,
+    "demo": false,
+    "coordinateNote": "Туристік каталогтағы бағдарлық нүкте. Каньон Ақсу-Жабағылы қорығына жатады; құжаттағы Сайрам-Өгем арқылы кіру туралы мәлімет маршрут ретінде қолданылмады.",
+    "sources": [
+      {
+        "title": "Kazakhstan.travel",
+        "url": "https://kazakhstan.travel/ru/attractions/707"
+      }
+    ],
+    "documentReference": "20:16"
+  },
+  {
+    "id": "bulyoyyk",
+    "name": "Булыойық карст үңгірі",
+    "category": "cave",
+    "icon": "◎",
+    "region": "Маңғыстау облысы",
+    "description": "Үстірттегі карст қуыстары мен жерасты залдары бар үңгір. Еритін жыныстарда жерасты бедерінің қалыптасуын көрсететін геологиялық нысан.",
+    "lat": 42.446642,
+    "lng": 54.732856,
+    "demo": false,
+    "coordinateNote": "2012 жылғы үңгірге барған зерттеушілердің авторлық есебіндегі координат. Бұл карта үңгірге түсуге арналған нұсқаулық емес.",
+    "sources": [
+      {
+        "title": "Александр Петров — 2012 жылғы далалық есеп",
+        "url": "https://www.silkadv.com/en/content/peshchera-bulyoyyk"
+      }
+    ],
+    "documentReference": "20:13"
+  },
+  {
+    "id": "shalkar",
+    "name": "Шалқар көлінің жағалау бедері",
+    "category": "lake",
+    "icon": "◎",
+    "region": "Солтүстік Қазақстан облысы",
+    "description": "Айыртау ауданындағы көл және оның жағалау пішіндері. Толқын әрекетін, жағалау шөгінділерінің жиналуын және шайылуын салыстырып зерттеуге болады.",
+    "lat": 53.193089,
+    "lng": 68.407463,
+    "demo": false,
+    "coordinateNote": "Көлдің жалпы картографиялық нүктесі. Құжаттағы жеке жағалау жарқабақтарының орны емес; нақты учаскелерді далалық тексеру қажет.",
+    "sources": [
+      {
+        "title": "Яндекс Карталар — Шалқар көлі",
+        "url": "https://yandex.kz/maps/ru/29416/north-kazakhstan-district/geo/shalqar_koli/1593870793/"
+      }
+    ],
+    "documentReference": "20:15"
+  },
+  {
+    "id": "ashutas",
+    "name": "Ашутас палеоботаникалық учаскесі",
+    "category": "outcrop",
+    "icon": "◆",
+    "region": "Шығыс Қазақстан облысы",
+    "description": "Қара Ертіс маңындағы шөгінді жыныстар ашылған учаске. Қазба өсімдік іздері мен қабаттар ежелгі табиғи ортаны зерттеуге мүмкіндік береді.",
+    "lat": 48.012019,
+    "lng": 85.33105,
+    "demo": false,
+    "coordinateNote": "Ашутас тауындағы Plantarium далалық бақылауының нүктесі. Белгілі бір қазба қабатының дәл орны ретінде берілмейді.",
+    "sources": [
+      {
+        "title": "Plantarium — Ашутас далалық бақылауы",
+        "url": "https://www.plantarium.ru/page/image/id/481110.html"
+      }
+    ],
+    "documentReference": "20:20"
+  },
+  {
+    "id": "turgen",
+    "name": "Түрген аңғарының эрозиялық бедері",
+    "category": "canyon",
+    "icon": "◈",
+    "region": "Алматы облысы",
+    "description": "Тау өзені аңғарындағы беткейлер мен жыныс ашылымдары су эрозиясын көрсетеді. Аңғар қимасы мен жарқабақтарды салыстыруға арналған геоморфологиялық кандидат аумақ.",
+    "lat": 43.28052,
+    "lng": 77.71548,
+    "demo": false,
+    "coordinateNote": "Бағдар ретінде Түргендегі Аюлы сарқырамасының каталог нүктесі алынды. Бұл құжаттағы жеке эрозиялық жарқабақтың расталған координаты емес.",
+    "sources": [
+      {
+        "title": "Kazakhstan.travel — Түргендегі Аюлы сарқырамасы",
+        "url": "https://www.kazakhstan.travel/ru/attractions/75"
+      }
+    ],
+    "documentReference": "20:4"
+  },
+  {
+    "id": "ayutas",
+    "name": "Аютас жартасы",
+    "category": "mountain",
+    "icon": "▲",
+    "region": "Ақмола облысы",
+    "description": "Бурабай көлінің жағасындағы гранитті жартас. Граниттің үгілуі мен оқшау тас пішіндерінің қалыптасуын таныстыруға арналған нысан.",
+    "lat": 53.088611,
+    "lng": 70.28,
+    "demo": false,
+    "coordinateNote": "Туроператор жариялаған Аютас жартасының нүктесі. Құжаттағы «Аютас тауы» атауы осы жартас атауымен нақтыланды; ресми нысан шекарасы көрсетілмейді.",
+    "sources": [
+      {
+        "title": "WildTicket Asia — Аютас жартасы",
+        "url": "https://wildticketasia.com/ru/1908-ayutas-rock-pakhomovka-in-burabay.html"
+      }
+    ],
+    "documentReference": "20:2"
+  },
+  {
+    "id": "shili",
+    "name": "Шилі импакт құрылымы",
+    "category": "outcrop",
+    "icon": "◆",
+    "region": "Ақтөбе облысы",
+    "description": "Ғылыми каталогтарда Chiyli немесе Shiyli деп кездесетін метеориттік соққы құрылымы. Жер бедерінің қалыптасуына ғарыштық соққылардың әсерін түсіндіруге мүмкіндік береді.",
+    "lat": 49.175556,
+    "lng": 57.833611,
+    "demo": false,
+    "coordinateNote": "2021 жылғы ғылыми каталогтағы 49°10′32″ N, 57°50′01″ E координаты. Бұл құрылымның бағдарлық нүктесі; жеке жыныс ашылымы емес.",
+    "sources": [
+      {
+        "title": "Kenkmann және әріптестері, 2021",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/maps.13657"
+      },
+      {
+        "title": "Ақтөбе геонысандары туралы зерттеу, 2024",
+        "url": "https://ojs.ingeo.kz/index.php/givr/article/download/232/196/2210"
+      }
+    ],
+    "documentReference": "20:3"
+  },
+  {
+    "id": "shyngystau",
+    "name": "Шыңғыстау жыныс ашылымдары",
+    "category": "mountain",
+    "icon": "▲",
+    "region": "Абай облысы",
+    "description": "Сарыарқаның шығысындағы тау жотасында әртүрлі жыныс ашылымдары мен үгілу пішіндерін зерттеуге болады. Құжатта жеке учаскелерді салыстырып картаға түсіру ұсынылған.",
+    "lat": 48.624592,
+    "lng": 79.13715,
+    "demo": false,
+    "coordinateNote": "Жотаның жарияланған жалпы бағдарлық нүктесі. Жеке гранитті немесе метаморфтық ашылымның дәл орны емес; мұндай учаскелер GPS арқылы нақтылануы тиіс.",
+    "sources": [
+      {
+        "title": "Silk Road Adventures — Шыңғыстау жотасы",
+        "url": "https://www.silkadv.com/en/content/hrebet-chingiztau"
+      }
+    ],
+    "documentReference": "20:18"
+  }
+]
