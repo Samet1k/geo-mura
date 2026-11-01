@@ -20,7 +20,25 @@
         "url": "https://kazakhstan.travel/kz/attractions/35"
       }
     ],
-    "documentReference": "10:1"
+    "documentReference": "10:1",
+    "images": [
+      {
+        "src": "images/aidarlyasha/01.jpg",
+        "alt": "Айдарлыаша қимасы — 1-сурет"
+      },
+      {
+        "src": "images/aidarlyasha/02.jpg",
+        "alt": "Айдарлыаша қимасы — 2-сурет"
+      },
+      {
+        "src": "images/aidarlyasha/03.jpg",
+        "alt": "Айдарлыаша қимасы — 3-сурет"
+      },
+      {
+        "src": "images/aidarlyasha/04.jpg",
+        "alt": "Айдарлыаша қимасы — 4-сурет"
+      }
+    ]
   },
   {
     "id": "aktolagay",
@@ -39,7 +57,29 @@
         "url": "https://kazakhstan.travel/kz/attractions/24"
       }
     ],
-    "documentReference": "10:7"
+    "documentReference": "10:7",
+    "images": [
+      {
+        "src": "images/aktolagay/01.jpg",
+        "alt": "Ақтолағай борлы үстірті — 1-сурет"
+      },
+      {
+        "src": "images/aktolagay/02.jpg",
+        "alt": "Ақтолағай борлы үстірті — 2-сурет"
+      },
+      {
+        "src": "images/aktolagay/03.jpg",
+        "alt": "Ақтолағай борлы үстірті — 3-сурет"
+      },
+      {
+        "src": "images/aktolagay/04.jpg",
+        "alt": "Ақтолағай борлы үстірті — 4-сурет"
+      },
+      {
+        "src": "images/aktolagay/05.jpg",
+        "alt": "Ақтолағай борлы үстірті — 5-сурет"
+      }
+    ]
   },
   {
     "id": "kokala",
@@ -58,7 +98,25 @@
         "url": "https://kazakhstan.travel/en/attractions/305"
       }
     ],
-    "documentReference": "10:2"
+    "documentReference": "10:2",
+    "images": [
+      {
+        "src": "images/kokala/01.jpg",
+        "alt": "Көкала шатқалы — 1-сурет"
+      },
+      {
+        "src": "images/kokala/02.jpg",
+        "alt": "Көкала шатқалы — 2-сурет"
+      },
+      {
+        "src": "images/kokala/03.jpg",
+        "alt": "Көкала шатқалы — 3-сурет"
+      },
+      {
+        "src": "images/kokala/04.jpg",
+        "alt": "Көкала шатқалы — 4-сурет"
+      }
+    ]
   },
   {
     "id": "ybykty",
@@ -77,7 +135,41 @@
         "url": "https://kazakhstan.travel/kz/attractions/323"
       }
     ],
-    "documentReference": "10:3"
+    "documentReference": "10:3",
+    "images": [
+      {
+        "src": "images/ybykty/01.jpg",
+        "alt": "Ыбықты сай шатқалы — 1-сурет"
+      },
+      {
+        "src": "images/ybykty/02.jpg",
+        "alt": "Ыбықты сай шатқалы — 2-сурет"
+      },
+      {
+        "src": "images/ybykty/03.jpg",
+        "alt": "Ыбықты сай шатқалы — 3-сурет"
+      },
+      {
+        "src": "images/ybykty/04.jpg",
+        "alt": "Ыбықты сай шатқалы — 4-сурет"
+      },
+      {
+        "src": "images/ybykty/05.jpg",
+        "alt": "Ыбықты сай шатқалы — 5-сурет"
+      },
+      {
+        "src": "images/ybykty/06.jpg",
+        "alt": "Ыбықты сай шатқалы — 6-сурет"
+      },
+      {
+        "src": "images/ybykty/07.jpg",
+        "alt": "Ыбықты сай шатқалы — 7-сурет"
+      },
+      {
+        "src": "images/ybykty/08.jpg",
+        "alt": "Ыбықты сай шатқалы — 8-сурет"
+      }
+    ]
   },
   {
     "id": "karasandyk",
@@ -100,7 +192,45 @@
         "url": "https://silkadv.com/en/content/mount-karasandyk-aral-sea"
       }
     ],
-    "documentReference": "10:4;20:12"
+    "documentReference": "10:4;20:12",
+    "images": [
+      {
+        "src": "images/karasandyk/01.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 1-сурет"
+      },
+      {
+        "src": "images/karasandyk/02.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 2-сурет"
+      },
+      {
+        "src": "images/karasandyk/03.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 3-сурет"
+      },
+      {
+        "src": "images/karasandyk/04.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 4-сурет"
+      },
+      {
+        "src": "images/karasandyk/05.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 5-сурет"
+      },
+      {
+        "src": "images/karasandyk/06.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 6-сурет"
+      },
+      {
+        "src": "images/karasandyk/07.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 7-сурет"
+      },
+      {
+        "src": "images/karasandyk/08.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 8-сурет"
+      },
+      {
+        "src": "images/karasandyk/09.jpg",
+        "alt": "Қарасандық останеці мен каньоны — 9-сурет"
+      }
+    ]
   },
   {
     "id": "akzhar",
@@ -123,7 +253,57 @@
         "url": "https://archaeology.kz/ru/heritages/444-aqzhar-tauy"
       }
     ],
-    "documentReference": "10:5"
+    "documentReference": "10:5",
+    "images": [
+      {
+        "src": "images/akzhar/01.jpg",
+        "alt": "Ақжар таулары — 1-сурет"
+      },
+      {
+        "src": "images/akzhar/02.jpg",
+        "alt": "Ақжар таулары — 2-сурет"
+      },
+      {
+        "src": "images/akzhar/03.jpg",
+        "alt": "Ақжар таулары — 3-сурет"
+      },
+      {
+        "src": "images/akzhar/04.jpg",
+        "alt": "Ақжар таулары — 4-сурет"
+      },
+      {
+        "src": "images/akzhar/05.jpg",
+        "alt": "Ақжар таулары — 5-сурет"
+      },
+      {
+        "src": "images/akzhar/06.jpg",
+        "alt": "Ақжар таулары — 6-сурет"
+      },
+      {
+        "src": "images/akzhar/07.jpg",
+        "alt": "Ақжар таулары — 7-сурет"
+      },
+      {
+        "src": "images/akzhar/08.jpg",
+        "alt": "Ақжар таулары — 8-сурет"
+      },
+      {
+        "src": "images/akzhar/09.jpg",
+        "alt": "Ақжар таулары — 9-сурет"
+      },
+      {
+        "src": "images/akzhar/10.jpg",
+        "alt": "Ақжар таулары — 10-сурет"
+      },
+      {
+        "src": "images/akzhar/11.jpg",
+        "alt": "Ақжар таулары — 11-сурет"
+      },
+      {
+        "src": "images/akzhar/12.jpg",
+        "alt": "Ақжар таулары — 12-сурет"
+      }
+    ]
   },
   {
     "id": "aiyrtau",
@@ -146,7 +326,29 @@
         "url": "https://visiteast.kz/kz/turistu/chto-posmotret/krasota-prirodyi/taular/ajyirtau-tauyi.html"
       }
     ],
-    "documentReference": "10:6"
+    "documentReference": "10:6",
+    "images": [
+      {
+        "src": "images/aiyrtau/01.jpg",
+        "alt": "Айыртау гранитті массиві — 1-сурет"
+      },
+      {
+        "src": "images/aiyrtau/02.jpg",
+        "alt": "Айыртау гранитті массиві — 2-сурет"
+      },
+      {
+        "src": "images/aiyrtau/03.jpg",
+        "alt": "Айыртау гранитті массиві — 3-сурет"
+      },
+      {
+        "src": "images/aiyrtau/04.jpg",
+        "alt": "Айыртау гранитті массиві — 4-сурет"
+      },
+      {
+        "src": "images/aiyrtau/05.jpg",
+        "alt": "Айыртау гранитті массиві — 5-сурет"
+      }
+    ]
   },
   {
     "id": "kiin-kerish",
@@ -169,7 +371,61 @@
         "url": "https://visiteast.kz/populyarnyie-turobektyi/kiin-kerish/"
       }
     ],
-    "documentReference": "10:8"
+    "documentReference": "10:8",
+    "images": [
+      {
+        "src": "images/kiin-kerish/01.jpg",
+        "alt": "Кийін-Керіш — 1-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/02.jpg",
+        "alt": "Кийін-Керіш — 2-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/03.jpg",
+        "alt": "Кийін-Керіш — 3-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/04.jpg",
+        "alt": "Кийін-Керіш — 4-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/05.jpg",
+        "alt": "Кийін-Керіш — 5-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/06.jpg",
+        "alt": "Кийін-Керіш — 6-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/07.jpg",
+        "alt": "Кийін-Керіш — 7-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/08.jpg",
+        "alt": "Кийін-Керіш — 8-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/09.jpg",
+        "alt": "Кийін-Керіш — 9-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/10.jpg",
+        "alt": "Кийін-Керіш — 10-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/11.jpg",
+        "alt": "Кийін-Керіш — 11-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/12.jpg",
+        "alt": "Кийін-Керіш — 12-сурет"
+      },
+      {
+        "src": "images/kiin-kerish/13.jpg",
+        "alt": "Кийін-Керіш — 13-сурет"
+      }
+    ]
   },
   {
     "id": "bektauata",
@@ -192,7 +448,49 @@
         "url": "https://visitkaraganda.kz/ru/services/493"
       }
     ],
-    "documentReference": "10:9"
+    "documentReference": "10:9",
+    "images": [
+      {
+        "src": "images/bektauata/01.jpg",
+        "alt": "Бектауата гранитті массиві — 1-сурет"
+      },
+      {
+        "src": "images/bektauata/02.jpg",
+        "alt": "Бектауата гранитті массиві — 2-сурет"
+      },
+      {
+        "src": "images/bektauata/03.jpg",
+        "alt": "Бектауата гранитті массиві — 3-сурет"
+      },
+      {
+        "src": "images/bektauata/04.jpg",
+        "alt": "Бектауата гранитті массиві — 4-сурет"
+      },
+      {
+        "src": "images/bektauata/05.jpg",
+        "alt": "Бектауата гранитті массиві — 5-сурет"
+      },
+      {
+        "src": "images/bektauata/06.jpg",
+        "alt": "Бектауата гранитті массиві — 6-сурет"
+      },
+      {
+        "src": "images/bektauata/07.jpg",
+        "alt": "Бектауата гранитті массиві — 7-сурет"
+      },
+      {
+        "src": "images/bektauata/08.jpg",
+        "alt": "Бектауата гранитті массиві — 8-сурет"
+      },
+      {
+        "src": "images/bektauata/09.jpg",
+        "alt": "Бектауата гранитті массиві — 9-сурет"
+      },
+      {
+        "src": "images/bektauata/10.jpg",
+        "alt": "Бектауата гранитті массиві — 10-сурет"
+      }
+    ]
   },
   {
     "id": "inder",
@@ -211,7 +509,33 @@
         "url": "https://www.plantarium.ru/lang/en/page/landscapes/point/2984.html"
       }
     ],
-    "documentReference": "20:5"
+    "documentReference": "20:5",
+    "images": [
+      {
+        "src": "images/inder/01.jpg",
+        "alt": "Индер көлі және тұзды бедер — 1-сурет"
+      },
+      {
+        "src": "images/inder/02.jpg",
+        "alt": "Индер көлі және тұзды бедер — 2-сурет"
+      },
+      {
+        "src": "images/inder/03.jpg",
+        "alt": "Индер көлі және тұзды бедер — 3-сурет"
+      },
+      {
+        "src": "images/inder/04.jpg",
+        "alt": "Индер көлі және тұзды бедер — 4-сурет"
+      },
+      {
+        "src": "images/inder/05.jpg",
+        "alt": "Индер көлі және тұзды бедер — 5-сурет"
+      },
+      {
+        "src": "images/inder/06.jpg",
+        "alt": "Индер көлі және тұзды бедер — 6-сурет"
+      }
+    ]
   },
   {
     "id": "burkhan-bulak",
@@ -230,7 +554,49 @@
         "url": "https://www.silkadv.com/ru/node/2531"
       }
     ],
-    "documentReference": "20:8"
+    "documentReference": "20:8",
+    "images": [
+      {
+        "src": "images/burkhan-bulak/01.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 1-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/02.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 2-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/03.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 3-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/04.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 4-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/05.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 5-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/06.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 6-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/07.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 7-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/08.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 8-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/09.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 9-сурет"
+      },
+      {
+        "src": "images/burkhan-bulak/10.jpg",
+        "alt": "Қора аңғары және Бұрхан-Бұлақ — 10-сурет"
+      }
+    ]
   },
   {
     "id": "ush-ungir",
@@ -253,7 +619,21 @@
         "url": "https://kazakhstan.travel/en/attractions/236"
       }
     ],
-    "documentReference": "20:10"
+    "documentReference": "20:10",
+    "images": [
+      {
+        "src": "images/ush-ungir/01.jpg",
+        "alt": "Үш үңгір гроты — 1-сурет"
+      },
+      {
+        "src": "images/ush-ungir/02.jpg",
+        "alt": "Үш үңгір гроты — 2-сурет"
+      },
+      {
+        "src": "images/ush-ungir/03.jpg",
+        "alt": "Үш үңгір гроты — 3-сурет"
+      }
+    ]
   },
   {
     "id": "aksu",
@@ -272,7 +652,41 @@
         "url": "https://kazakhstan.travel/ru/attractions/707"
       }
     ],
-    "documentReference": "20:16"
+    "documentReference": "20:16",
+    "images": [
+      {
+        "src": "images/aksu/01.jpg",
+        "alt": "Ақсу каньоны — 1-сурет"
+      },
+      {
+        "src": "images/aksu/02.jpg",
+        "alt": "Ақсу каньоны — 2-сурет"
+      },
+      {
+        "src": "images/aksu/03.jpg",
+        "alt": "Ақсу каньоны — 3-сурет"
+      },
+      {
+        "src": "images/aksu/04.jpg",
+        "alt": "Ақсу каньоны — 4-сурет"
+      },
+      {
+        "src": "images/aksu/05.jpg",
+        "alt": "Ақсу каньоны — 5-сурет"
+      },
+      {
+        "src": "images/aksu/06.jpg",
+        "alt": "Ақсу каньоны — 6-сурет"
+      },
+      {
+        "src": "images/aksu/07.jpg",
+        "alt": "Ақсу каньоны — 7-сурет"
+      },
+      {
+        "src": "images/aksu/08.jpg",
+        "alt": "Ақсу каньоны — 8-сурет"
+      }
+    ]
   },
   {
     "id": "bulyoyyk",
@@ -291,7 +705,37 @@
         "url": "https://www.silkadv.com/en/content/peshchera-bulyoyyk"
       }
     ],
-    "documentReference": "20:13"
+    "documentReference": "20:13",
+    "images": [
+      {
+        "src": "images/bulyoyyk/01.jpg",
+        "alt": "Булыойық карст үңгірі — 1-сурет"
+      },
+      {
+        "src": "images/bulyoyyk/02.jpg",
+        "alt": "Булыойық карст үңгірі — 2-сурет"
+      },
+      {
+        "src": "images/bulyoyyk/03.jpg",
+        "alt": "Булыойық карст үңгірі — 3-сурет"
+      },
+      {
+        "src": "images/bulyoyyk/04.jpg",
+        "alt": "Булыойық карст үңгірі — 4-сурет"
+      },
+      {
+        "src": "images/bulyoyyk/05.jpg",
+        "alt": "Булыойық карст үңгірі — 5-сурет"
+      },
+      {
+        "src": "images/bulyoyyk/06.jpg",
+        "alt": "Булыойық карст үңгірі — 6-сурет"
+      },
+      {
+        "src": "images/bulyoyyk/07.jpg",
+        "alt": "Булыойық карст үңгірі — 7-сурет"
+      }
+    ]
   },
   {
     "id": "shalkar",
@@ -310,7 +754,25 @@
         "url": "https://yandex.kz/maps/ru/29416/north-kazakhstan-district/geo/shalqar_koli/1593870793/"
       }
     ],
-    "documentReference": "20:15"
+    "documentReference": "20:15",
+    "images": [
+      {
+        "src": "images/shalkar/01.jpg",
+        "alt": "Шалқар көлінің жағалау бедері — 1-сурет"
+      },
+      {
+        "src": "images/shalkar/02.jpg",
+        "alt": "Шалқар көлінің жағалау бедері — 2-сурет"
+      },
+      {
+        "src": "images/shalkar/03.jpg",
+        "alt": "Шалқар көлінің жағалау бедері — 3-сурет"
+      },
+      {
+        "src": "images/shalkar/04.jpg",
+        "alt": "Шалқар көлінің жағалау бедері — 4-сурет"
+      }
+    ]
   },
   {
     "id": "ashutas",
@@ -329,7 +791,25 @@
         "url": "https://www.plantarium.ru/page/image/id/481110.html"
       }
     ],
-    "documentReference": "20:20"
+    "documentReference": "20:20",
+    "images": [
+      {
+        "src": "images/ashutas/01.jpg",
+        "alt": "Ашутас палеоботаникалық учаскесі — 1-сурет"
+      },
+      {
+        "src": "images/ashutas/02.jpg",
+        "alt": "Ашутас палеоботаникалық учаскесі — 2-сурет"
+      },
+      {
+        "src": "images/ashutas/03.jpg",
+        "alt": "Ашутас палеоботаникалық учаскесі — 3-сурет"
+      },
+      {
+        "src": "images/ashutas/04.jpg",
+        "alt": "Ашутас палеоботаникалық учаскесі — 4-сурет"
+      }
+    ]
   },
   {
     "id": "turgen",
@@ -348,7 +828,25 @@
         "url": "https://www.kazakhstan.travel/ru/attractions/75"
       }
     ],
-    "documentReference": "20:4"
+    "documentReference": "20:4",
+    "images": [
+      {
+        "src": "images/turgen/01.jpg",
+        "alt": "Түрген аңғарының эрозиялық бедері — 1-сурет"
+      },
+      {
+        "src": "images/turgen/02.jpg",
+        "alt": "Түрген аңғарының эрозиялық бедері — 2-сурет"
+      },
+      {
+        "src": "images/turgen/03.jpg",
+        "alt": "Түрген аңғарының эрозиялық бедері — 3-сурет"
+      },
+      {
+        "src": "images/turgen/04.jpg",
+        "alt": "Түрген аңғарының эрозиялық бедері — 4-сурет"
+      }
+    ]
   },
   {
     "id": "ayutas",
@@ -367,7 +865,29 @@
         "url": "https://wildticketasia.com/ru/1908-ayutas-rock-pakhomovka-in-burabay.html"
       }
     ],
-    "documentReference": "20:2"
+    "documentReference": "20:2",
+    "images": [
+      {
+        "src": "images/ayutas/01.jpg",
+        "alt": "Аютас жартасы — 1-сурет"
+      },
+      {
+        "src": "images/ayutas/02.jpg",
+        "alt": "Аютас жартасы — 2-сурет"
+      },
+      {
+        "src": "images/ayutas/03.jpg",
+        "alt": "Аютас жартасы — 3-сурет"
+      },
+      {
+        "src": "images/ayutas/04.jpg",
+        "alt": "Аютас жартасы — 4-сурет"
+      },
+      {
+        "src": "images/ayutas/05.jpg",
+        "alt": "Аютас жартасы — 5-сурет"
+      }
+    ]
   },
   {
     "id": "shili",
@@ -390,7 +910,25 @@
         "url": "https://ojs.ingeo.kz/index.php/givr/article/download/232/196/2210"
       }
     ],
-    "documentReference": "20:3"
+    "documentReference": "20:3",
+    "images": [
+      {
+        "src": "images/shili/01.jpg",
+        "alt": "Шилі импакт құрылымы — 1-сурет"
+      },
+      {
+        "src": "images/shili/02.jpg",
+        "alt": "Шилі импакт құрылымы — 2-сурет"
+      },
+      {
+        "src": "images/shili/03.jpg",
+        "alt": "Шилі импакт құрылымы — 3-сурет"
+      },
+      {
+        "src": "images/shili/04.jpg",
+        "alt": "Шилі импакт құрылымы — 4-сурет"
+      }
+    ]
   },
   {
     "id": "shyngystau",
@@ -409,6 +947,16 @@
         "url": "https://www.silkadv.com/en/content/hrebet-chingiztau"
       }
     ],
-    "documentReference": "20:18"
+    "documentReference": "20:18",
+    "images": [
+      {
+        "src": "images/shyngystau/01.jpg",
+        "alt": "Шыңғыстау жыныс ашылымдары — 1-сурет"
+      },
+      {
+        "src": "images/shyngystau/02.jpg",
+        "alt": "Шыңғыстау жыныс ашылымдары — 2-сурет"
+      }
+    ]
   }
 ]

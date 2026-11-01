@@ -20,7 +20,9 @@ function validate(data) {
     if(item.coordinateNote !== undefined && (typeof item.coordinateNote !== 'string' || item.coordinateNote.length > 2000)) throw new Error(`${index + 1}: координат ескертпесі қате.`);
     const sources = item.sources ?? [];
     if(!Array.isArray(sources) || sources.some(s => !s || typeof s.title !== 'string' || !s.title.trim() || typeof s.url !== 'string' || !/^https:\/\//i.test(s.url))) throw new Error(`${index + 1}: дереккөз пішімі қате.`);
-    return {id:item.id,name:item.name.trim(),category:item.category,icon:item.icon,region:item.region.trim(),description:item.description.trim(),lat:item.lat,lng:item.lng,demo:item.demo === true,coordinateNote:item.coordinateNote || '',sources};
+    const images = item.images ?? [];
+    if(!Array.isArray(images) || images.some(img => !img || typeof img.src !== 'string' || !/^images\/[a-z0-9-]+\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/i.test(img.src) || typeof img.alt !== 'string')) throw new Error(`${index + 1}: суреттер пішімі қате.`);
+    return {id:item.id,name:item.name.trim(),category:item.category,icon:item.icon,region:item.region.trim(),description:item.description.trim(),lat:item.lat,lng:item.lng,demo:item.demo === true,coordinateNote:item.coordinateNote || '',sources,images};
   });
 }
 function visibleLocations() {
@@ -45,11 +47,42 @@ function render() {
   if(!visible.length) $('list').append(element('p',locations.length ? 'Ештеңе табылмады. Іздеуді немесе санатты өзгертіңіз.' : 'Әзірге нысандар жоқ.','empty'));
   if(selected && !visible.some(p => p.id === selected)) { selected = null; $('detail').hidden = true; }
 }
+function photoCarousel(p) {
+  const gallery = element('section',undefined,'gallery');
+  gallery.setAttribute('aria-label',`${p.name}: фотогалерея`);
+  gallery.setAttribute('aria-roledescription','карусель');
+  gallery.tabIndex=0;
+  const frame=element('div',undefined,'gallery-frame');
+  const photo=element('img');photo.decoding='async';photo.draggable=false;
+  const error=element('span','Сурет жүктелмеді','gallery-error');error.hidden=true;
+  photo.onerror=()=>{error.hidden=false;photo.hidden=true;};
+  const controls=element('div',undefined,'gallery-controls');
+  const prev=element('button','←');prev.type='button';prev.setAttribute('aria-label','Алдыңғы сурет');
+  const next=element('button','→');next.type='button';next.setAttribute('aria-label','Келесі сурет');
+  const count=element('span');count.setAttribute('aria-live','polite');count.setAttribute('aria-atomic','true');
+  let index=0;
+  function show(step) {
+    index=(index+step+p.images.length)%p.images.length;
+    error.hidden=true;photo.hidden=false;
+    photo.alt=p.images[index].alt;photo.src=p.images[index].src;
+    count.textContent=`${index+1} / ${p.images.length}`;
+  }
+  prev.onclick=()=>show(-1);next.onclick=()=>show(1);
+  prev.disabled=next.disabled=p.images.length<2;
+  gallery.onkeydown=e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();e.stopPropagation();show(e.key==='ArrowRight'?1:-1);}};
+  let touch=null;
+  frame.addEventListener('touchstart',e=>{touch=e.touches.length===1 ? {x:e.touches[0].clientX,y:e.touches[0].clientY}:null;},{passive:true});
+  frame.addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;if(Math.abs(dx)>45 && Math.abs(dx)>Math.abs(dy))show(dx<0?1:-1);touch=null;},{passive:true});
+  frame.addEventListener('touchcancel',()=>{touch=null;});
+  frame.append(photo,error);controls.append(prev,count,next);gallery.append(frame,controls);show(0);
+  return gallery;
+}
 function select(id, fly) {
   const p = locations.find(p => p.id === id); if(!p) return;
-  selected = id; render(); const panel = $('detail'); panel.replaceChildren(); panel.hidden = false;
+  selected = id; render(); const panel = $('detail'); panel.replaceChildren(); panel.hidden = false; panel.scrollTop=0;
   const close = element('button','×','icon-button'); close.setAttribute('aria-label','Жабу'); close.onclick = () => { selected=null;panel.hidden=true;render(); };
   panel.append(close,element('span',p.icon,`symbol ${p.category}`),element('h2',p.name),element('div',`${categories[p.category]} / ${p.region}`,'meta'));
+  if(p.images.length) panel.append(photoCarousel(p));
   if(p.demo) panel.append(element('p','ДЕМОНСТРАЦИЯ · нақты нысан деректері емес','demo-badge'));
   panel.append(element('p',p.description),element('div',`${p.lat.toFixed(5)}° N  /  ${p.lng.toFixed(5)}° E`,'coordinates'));
   if(p.coordinateNote) panel.append(element('p',p.coordinateNote,'coordinate-note'));
