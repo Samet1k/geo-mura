@@ -28,15 +28,39 @@
       },
       {
         "src": "images/aidarlyasha/02.jpg",
-        "alt": "Айдарлыаша қимасы — 2-сурет"
+        "alt": "Айдарлыаша қимасы — 2-сурет",
+        "crop": {
+          "x": 0,
+          "y": 554,
+          "width": 738,
+          "height": 492,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       },
       {
         "src": "images/aidarlyasha/03.jpg",
-        "alt": "Айдарлыаша қимасы — 3-сурет"
+        "alt": "Айдарлыаша қимасы — 3-сурет",
+        "crop": {
+          "x": 0,
+          "y": 554,
+          "width": 738,
+          "height": 492,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       },
       {
         "src": "images/aidarlyasha/04.jpg",
-        "alt": "Айдарлыаша қимасы — 4-сурет"
+        "alt": "Айдарлыаша қимасы — 4-сурет",
+        "crop": {
+          "x": 0,
+          "y": 554,
+          "width": 738,
+          "height": 492,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       }
     ]
   },
@@ -513,27 +537,75 @@
     "images": [
       {
         "src": "images/inder/01.jpg",
-        "alt": "Индер көлі және тұзды бедер — 1-сурет"
+        "alt": "Индер көлі және тұзды бедер — 1-сурет",
+        "crop": {
+          "x": 0,
+          "y": 592,
+          "width": 738,
+          "height": 416,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       },
       {
         "src": "images/inder/02.jpg",
-        "alt": "Индер көлі және тұзды бедер — 2-сурет"
+        "alt": "Индер көлі және тұзды бедер — 2-сурет",
+        "crop": {
+          "x": 0,
+          "y": 564,
+          "width": 738,
+          "height": 472,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       },
       {
         "src": "images/inder/03.jpg",
-        "alt": "Индер көлі және тұзды бедер — 3-сурет"
+        "alt": "Индер көлі және тұзды бедер — 3-сурет",
+        "crop": {
+          "x": 0,
+          "y": 549,
+          "width": 738,
+          "height": 502,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       },
       {
         "src": "images/inder/04.jpg",
-        "alt": "Индер көлі және тұзды бедер — 4-сурет"
+        "alt": "Индер көлі және тұзды бедер — 4-сурет",
+        "crop": {
+          "x": 0,
+          "y": 570,
+          "width": 738,
+          "height": 460,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       },
       {
         "src": "images/inder/05.jpg",
-        "alt": "Индер көлі және тұзды бедер — 5-сурет"
+        "alt": "Индер көлі және тұзды бедер — 5-сурет",
+        "crop": {
+          "x": 0,
+          "y": 550,
+          "width": 738,
+          "height": 501,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       },
       {
         "src": "images/inder/06.jpg",
-        "alt": "Индер көлі және тұзды бедер — 6-сурет"
+        "alt": "Индер көлі және тұзды бедер — 6-сурет",
+        "crop": {
+          "x": 0,
+          "y": 584,
+          "width": 738,
+          "height": 432,
+          "originalWidth": 738,
+          "originalHeight": 1600
+        }
       }
     ]
   },

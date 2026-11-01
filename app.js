@@ -54,6 +54,12 @@ function photoCarousel(p) {
   gallery.tabIndex=0;
   const frame=element('div',undefined,'gallery-frame');
   const photo=element('img');photo.decoding='async';photo.draggable=false;
+  const svgNS='http://www.w3.org/2000/svg';
+  const cropped=document.createElementNS(svgNS,'svg');cropped.classList.add('cropped-photo');cropped.setAttribute('role','img');
+  const croppedImage=document.createElementNS(svgNS,'image');cropped.append(croppedImage);cropped.hidden=true;
+  const clip=document.createElementNS(svgNS,'clipPath');clip.id=`photo-clip-${p.id}`;
+  const clipRect=document.createElementNS(svgNS,'rect');clip.append(clipRect);cropped.append(clip);
+  croppedImage.setAttribute('clip-path',`url(#${clip.id})`);
   const error=element('span','Сурет жүктелмеді','gallery-error');error.hidden=true;
   photo.onerror=()=>{error.hidden=false;photo.hidden=true;};
   const controls=element('div',undefined,'gallery-controls');
@@ -65,6 +71,18 @@ function photoCarousel(p) {
     index=(index+step+p.images.length)%p.images.length;
     error.hidden=true;photo.hidden=false;
     photo.alt=p.images[index].alt;photo.src=p.images[index].src;
+    const crop=p.images[index].crop;
+    const validCrop=crop && ['x','y','width','height','originalWidth','originalHeight'].every(k=>Number.isFinite(crop[k])) && crop.width>0 && crop.height>0;
+    cropped.style.display=validCrop?'block':'none';
+    if(validCrop){
+      photo.hidden=true;
+      cropped.removeAttribute('hidden');
+      cropped.setAttribute('viewBox',`${crop.x} ${crop.y} ${crop.width} ${crop.height}`);
+      for(const key of ['x','y','width','height'])clipRect.setAttribute(key,crop[key]);
+      cropped.setAttribute('aria-label',p.images[index].alt);
+      croppedImage.setAttribute('width',crop.originalWidth);croppedImage.setAttribute('height',crop.originalHeight);
+      croppedImage.setAttribute('href',p.images[index].src);
+    }
     count.textContent=`${index+1} / ${p.images.length}`;
   }
   prev.onclick=()=>show(-1);next.onclick=()=>show(1);
@@ -74,7 +92,7 @@ function photoCarousel(p) {
   frame.addEventListener('touchstart',e=>{touch=e.touches.length===1 ? {x:e.touches[0].clientX,y:e.touches[0].clientY}:null;},{passive:true});
   frame.addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;if(Math.abs(dx)>45 && Math.abs(dx)>Math.abs(dy))show(dx<0?1:-1);touch=null;},{passive:true});
   frame.addEventListener('touchcancel',()=>{touch=null;});
-  frame.append(photo,error);controls.append(prev,count,next);gallery.append(frame,controls);show(0);
+  frame.append(photo,cropped,error);controls.append(prev,count,next);gallery.append(frame,controls);show(0);
   return gallery;
 }
 function select(id, fly) {
@@ -102,6 +120,19 @@ for(const [value,label] of [['all','Барлығы'],...Object.entries(categorie
 }
 $('search').oninput=render;
 $('home').onclick=()=>map?.fitBounds([[40.5,46],[55.5,87.5]],{padding:[25,25]});
+async function showCountryBorder() {
+  try {
+    const response=await fetch('./data/kazakhstan.geojson');
+    if(!response.ok) throw new Error(`HTTP ${response.status}`);
+    const boundary=await response.json();
+    const pane=map.createPane('countryBorder');pane.style.zIndex=350;pane.style.pointerEvents='none';
+    const options={pane:'countryBorder',interactive:false,smoothFactor:.5};
+    L.geoJSON(boundary,{...options,style:{color:'#ffffff',weight:7,opacity:.95,fill:false}}).addTo(map);
+    L.geoJSON(boundary,{...options,style:{color:'#285b49',weight:4,opacity:1,fill:false},attribution:'Шекара: <a href="https://www.naturalearthdata.com/">Natural Earth</a>'}).addTo(map);
+  } catch(error) {
+    notify('Қазақстан шекарасы жүктелмеді. Бетті жаңартып көріңіз.');
+  }
+}
 async function init(){
   if(location.protocol === 'file:') {
     const message = 'Сайтты start-site.cmd арқылы іске қосыңыз немесе Render / GitHub Pages мекенжайынан ашыңыз. Файлды тікелей ашқанда карта мен JSON жүктелмеуі мүмкін.';
@@ -116,6 +147,7 @@ async function init(){
     const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,referrerPolicy:'strict-origin-when-cross-origin',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
     let tileWarning=false;tiles.on('tileerror',()=>{if(!tileWarning){tileWarning=true;$('map-note').textContent='Карта суреттері жүктелмеді. Байланыс қатесі немесе карта серверінің шектеуі болуы мүмкін.';notify('Карта қабаты қолжетімсіз. Нысандар тізімі жұмыс істей береді.');}});
     layer=L.layerGroup().addTo(map);
+    void showCountryBorder();
   }else{ $('map-note').textContent='Карта жүктелмеді. Интернет байланысын тексеріңіз.'; }
   try{
     const response=await fetch('./locations.json',{cache:'no-cache'});if(!response.ok)throw new Error(`HTTP ${response.status}`);
