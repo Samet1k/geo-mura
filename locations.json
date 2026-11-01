@@ -890,47 +890,6 @@
     ]
   },
   {
-    "id": "shili",
-    "name": "Шилі импакт құрылымы",
-    "category": "outcrop",
-    "icon": "◆",
-    "region": "Ақтөбе облысы",
-    "description": "Ғылыми каталогтарда Chiyli немесе Shiyli деп кездесетін метеориттік соққы құрылымы. Жер бедерінің қалыптасуына ғарыштық соққылардың әсерін түсіндіруге мүмкіндік береді.",
-    "lat": 49.175556,
-    "lng": 57.833611,
-    "demo": false,
-    "coordinateNote": "2021 жылғы ғылыми каталогтағы 49°10′32″ N, 57°50′01″ E координаты. Бұл құрылымның бағдарлық нүктесі; жеке жыныс ашылымы емес.",
-    "sources": [
-      {
-        "title": "Kenkmann және әріптестері, 2021",
-        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/maps.13657"
-      },
-      {
-        "title": "Ақтөбе геонысандары туралы зерттеу, 2024",
-        "url": "https://ojs.ingeo.kz/index.php/givr/article/download/232/196/2210"
-      }
-    ],
-    "documentReference": "20:3",
-    "images": [
-      {
-        "src": "images/shili/01.jpg",
-        "alt": "Шилі импакт құрылымы — 1-сурет"
-      },
-      {
-        "src": "images/shili/02.jpg",
-        "alt": "Шилі импакт құрылымы — 2-сурет"
-      },
-      {
-        "src": "images/shili/03.jpg",
-        "alt": "Шилі импакт құрылымы — 3-сурет"
-      },
-      {
-        "src": "images/shili/04.jpg",
-        "alt": "Шилі импакт құрылымы — 4-сурет"
-      }
-    ]
-  },
-  {
     "id": "shyngystau",
     "name": "Шыңғыстау жыныс ашылымдары",
     "category": "mountain",
@@ -956,6 +915,59 @@
       {
         "src": "images/shyngystau/02.jpg",
         "alt": "Шыңғыстау жыныс ашылымдары — 2-сурет"
+      }
+    ]
+  },
+  {
+    "id": "qapamsai",
+    "name": "Қапамсай шатқалы",
+    "category": "canyon",
+    "icon": "◈",
+    "region": "Маңғыстау облысы",
+    "description": "Түпқараған түбегіндегі ақшыл шөгінді жыныстардан түзілген тік жартасты шатқал. Қабырғаларында жыныс қабаттары айқын көрінеді. Ағын су мен табиғи үгілу терең аңғар, ойыстар және жыралар қалыптастырған. Шатқалдың көлеңкелі, ылғал сақталатын бөліктерінде ағаштар мен бұталар өседі. Нысан шөгінді қабаттарды және эрозиялық бедердің қалыптасуын бақылауға мүмкіндік береді.",
+    "lat": 44.40278,
+    "lng": 51.08849,
+    "demo": false,
+    "coordinateNote": "Берілген құжаттағы шамамен алынған бағдарлық нүкте. Шатқалдың толық шекарасын немесе нақты кіру жолын білдірмейді.",
+    "sources": [
+      {
+        "title": "Қазақстанның туристік порталы",
+        "url": "https://kazakhstan.travel/kz/attractions/302"
+      },
+      {
+        "title": "Tour-Mangystau — Қапамсай",
+        "url": "https://tour-mangystau.kz/ru/destinations/kapamsay"
+      },
+      {
+        "title": "Plantarium — фотоматериал",
+        "url": "https://www.plantarium.ru/page/landscape/id/77496.html"
+      }
+    ],
+    "documentReference": "Qapamsai_shatqaly_tolyq_malimet.docx",
+    "images": [
+      {
+        "src": "images/qapamsai/01.jpg",
+        "alt": "Қапамсай шатқалы — 1-сурет"
+      },
+      {
+        "src": "images/qapamsai/02.jpg",
+        "alt": "Қапамсай шатқалы — 2-сурет"
+      },
+      {
+        "src": "images/qapamsai/03.jpg",
+        "alt": "Қапамсай шатқалы — 3-сурет"
+      },
+      {
+        "src": "images/qapamsai/04.jpg",
+        "alt": "Қапамсай шатқалы — 4-сурет"
+      },
+      {
+        "src": "images/qapamsai/05.jpg",
+        "alt": "Қапамсай шатқалы — 5-сурет"
+      },
+      {
+        "src": "images/qapamsai/06.jpg",
+        "alt": "Қапамсай шатқалы — 6-сурет"
       }
     ]
   }
